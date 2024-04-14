@@ -1,0 +1,10 @@
+apiVersion: v1
+data:
+  hostname: wordpress-mysql
+  username: wp_user
+  database: wordpress
+kind: ConfigMap
+metadata:
+  name: mysql-param
+  labels:
+    app: wordpress
